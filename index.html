@@ -85,10 +85,8 @@
     const DESTINO = "https://script.google.com/macros/s/AKfycbye652ODJmIxCjB77Ux68zHdbfLikID6Rpel-Bmg9k8i6PhjCbbxTtLbYYffdOP949QhA/exec";
 
     setTimeout(function () {
-      if (DESTINO && DESTINO !== "https://script.google.com/macros/s/AKfycbye652ODJmIxCjB77Ux68zHdbfLikID6Rpel-Bmg9k8i6PhjCbbxTtLbYYffdOP949QhA/exec") {
-        window.location.href = DESTINO;
-      }
-    }, 1500);
+  window.location.replace(DESTINO);
+}, 1800);
   </script>
 </head>
 <body>
